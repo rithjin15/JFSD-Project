@@ -1,0 +1,186 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* White background */
+  color: #000000; /* Black text */
+}
+
+/* Header Styles */
+.header {
+  background-color: #000000; /* Black header */
+  padding: 20px;
+  text-align: center;
+  color: #ffffff; /* White text */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  font-family: 'Arial', sans-serif;
+  font-size: 48px;
+  margin: 0;
+}
+
+.header p {
+  font-family: 'Verdana', sans-serif;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #000000; /* Black navbar */
+  overflow: hidden;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  float: left;
+}
+
+.navbar ul li a {
+  display: block;
+  color: #ffffff; /* White text in navbar */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  background-color: #f5f5f5; /* Light gray hover */
+  color: #000000; /* Black text on hover */
+}
+
+/* Main Content Styles */
+.main-content {
+  padding: 20px;
+}
+
+.main-content section {
+  margin-bottom: 30px;
+}
+
+.main-content h2 {
+  font-size: 24px;
+  color: #000000; /* Black headings */
+  margin-bottom: 10px;
+}
+
+.main-content p {
+  font-size: 16px;
+  color: #333333; /* Dark gray text */
+}
+
+/* Services Page Styles */
+.services-page {
+  padding: 20px;
+  text-align: center;
+}
+
+.services-content {
+  margin-top: 20px;
+}
+
+.service {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #f9f9f9; /* Very light gray background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service h2 {
+  color: #000000; /* Black headings for services */
+}
+
+/* Profile Page Styles */
+.profile-page {
+  padding: 20px;
+  background-color: #ffffff; /* White background */
+  border-radius: 8px;
+  margin: 20px auto;
+  width: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.profile-info strong {
+  color: #000000; /* Black strong text */
+}
+
+/* Sign-Up and Sign-In Page Styles */
+.signup-page, .signin-page {
+  width: 50%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f5f5f5; /* Light gray background */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-page h1, .signin-page h1 {
+  text-align: center;
+  color: #000000; /* Black headings */
+}
+
+.signup-page form div, .signin-page form div {
+  margin-bottom: 15px;
+}
+
+.signup-page label, .signin-page label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.signup-page input, .signin-page input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.signup-page button, .signin-page button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #000000; /* Black buttons */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signup-page button:hover, .signin-page button:hover {
+  background-color: #333333; /* Darker black on hover */
+}
+
+/* Footer Styles */
+.footer {
+  margin-top: 50px;
+  padding: 10px;
+  background-color: #000000; /* Black footer */
+  color: #ffffff; /* White text */
+  text-align: center;
+}
+
+.footer a {
+  color: #ffffff; /* White footer links */
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
